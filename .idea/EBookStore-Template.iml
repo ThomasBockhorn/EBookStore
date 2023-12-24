@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/ebookstore-demo/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/ebookstore-demo/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/ebookstore-template/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/ebookstore-demo/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/ebookstore-demo/vendor/carbonphp/carbon-doctrine-types" />
       <excludeFolder url="file://$MODULE_DIR$/ebookstore-demo/vendor/composer" />
@@ -120,6 +122,9 @@
       <excludeFolder url="file://$MODULE_DIR$/ebookstore-demo/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/ebookstore-demo/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/ebookstore-demo/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-demo/vendor/inertiajs/inertia-laravel" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-demo/vendor/laravel/breeze" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-demo/vendor/tightenco/ziggy" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
