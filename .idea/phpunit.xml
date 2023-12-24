@@ -4,6 +4,7 @@
     <option name="directories">
       <list>
         <option value="$PROJECT_DIR$/ebookstore-template/tests" />
+        <option value="$PROJECT_DIR$/ebookstore-demo/tests" />
       </list>
     </option>
   </component>
