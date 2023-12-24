@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ebookstore-template/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/ebookstore-template/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/ebookstore-template/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/ebookstore-template/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ebookstore-template/tests" isTestSource="true" packagePrefix="Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/carbonphp/carbon-doctrine-types" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/fruitcake/php-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/guzzlehttp/uri-template" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/laravel/pint" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/laravel/prompts" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/laravel/sanctum" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/league/flysystem-local" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/nunomaduro/termwind" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/spatie/backtrace" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/spatie/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/spatie/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/spatie/laravel-ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/polyfill-uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/uid" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/ebookstore-template/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
