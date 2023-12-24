@@ -18,78 +18,6 @@ Features of the website include:
 - Sending invoice reminders to users
 - Monitoring inventory and sales statistics
 
-## Database Structure
-### Books
-- book_id (Primary Key): Unique identifier for each book.
-- title: Title of the book.
-- author_id (Foreign Key): References the author of the book.
-- ISBN: International Standard Book Number.
-- description: Brief description or synopsis of the book.
-- genre_id (Foreign Key): Classification of the book by genre.
-- price: Price of the book.
-- stock_quantity: Number of available copies in stock.
-- publication_date: Date when the book was published.
-- image_url: URL or reference to the book cover image.
-
-### Wishlist_Items
-- book_id (Foreign Key): References the book in the wishlist.
-- wishlist_item_id (Primary Key): Unique identifier for each wishlist item.
-- wishlist_id (Foreign Key): References the wishlist.
-
-### Wishlists
-- wishlist_id (Primary Key): Unique identifier for each wishlist.
-- customer_id (Foreign Key): References the customer who owns the wishlist.
-
-### Order_Items
-- order_item_id (Primary Key): Unique identifier for each order item.
-- item_price: Price of the book at the time of purchase.
-- quantity: Number of copies of the book purchased.
-- order_id (Foreign Key): References the order.
-- book_id (Foreign Key): References the book.
-
-### Genres
-- genre_id (Primary Key): Unique identifier for each genre.
-- genre_name: Name of the genre.
-
-### Authors
-- author_id (Primary Key): Unique identifier for each author.
-- author_name: Name of the author.
-- bio: Brief biography of the author.
-- website: URL or reference to the author`s website.
-
-### Reviews
-- review_id (Primary Key): Unique identifier for each review.
-- review_date: Date when the review was posted.
-- book_id (Foreign Key): References the book.
-- customer_id (Foreign Key): References the customer who posted the review.
-- rating: Rating of the book on a scale of 1 to 5.
-- review_text: Text of the review.
-
-### Book_Ratings
-- rating_id (Primary Key): Unique identifier for each rating.
-- book_id (Foreign Key): References the book.
-- customer_id (Foreign Key): References the customer who rated the book.
-- rating: Rating of the book on a scale of 1 to 5.
-
-### Orders
-- order_id (Primary Key): Unique identifier for each order.
-- total_amount: Total amount of the order.
-- customer_id (Foreign Key): References the customer who placed the order.
-- order_date: Date when the order was placed.
-
-### Customers
-- email: Email address of the customer.
-- customer_id (Primary Key): Unique identifier for each customer.
-- first_name: First name of the customer.
-- last_name: Last name of the customer.
-- password: Password of the customer.
-- address: Address of the customer.
-
-### Administrative
-- admin_id (Primary Key): Unique identifier for each administrator.
-- username: Username of the administrator.
-- password: Password of the administrator.
-- permissions: Permissions of the administrator.
 
 ## Technical Details
 ### Frontend
@@ -127,5 +55,124 @@ The frontend is divided into the following components:
 - Invoice.vue: The invoice listing page of the admin dashboard.
 - InvoiceDetail.vue: The invoice detail page of the admin dashboard.
 - InvoiceEdit.vue: The invoice editing page of the admin dashboard.
+
+### Backend
+The backend of the website is built with Laravel 10 and MySQL.  The backend is a RESTful API that communicates with the frontend through Inertia.js.
+### Backend Structure
+The backend is divided into the following components:
+#### Models
+- Book.php: Represents a book.
+- WishlistItem.php: Represents a book in a wishlist.
+- Wishlist.php: Represents a wishlist.
+- OrderItem.php: Represents a book in an order.
+- Genre.php: Represents a genre.
+- Author.php: Represents an author.
+- Review.php: Represents a review.
+- BookRating.php: Represents a book rating.
+- Order.php: Represents an order.
+- Customer.php: Represents a customer.
+- Administrative.php: Represents an administrator.
+- Order.php: Represents an order.
+- Invoice.php: Represents an invoice.
+
+#### Controllers
+- BookController.php: Handles requests related to books.
+- GenreController.php: Handles requests related to genres.
+- CustomerController.php: Handles requests related to customers.
+- OrderController.php: Handles requests related to orders.
+- ReviewController.php: Handles requests related to reviews.
+- OrdersController.php: Handles requests related to orders.
+- AdministrativeController.php: Handles requests related to administrators.
+- WishlistController.php: Handles requests related to wishlists.
+- WishlistItemController.php: Handles requests related to wishlist items.
+- BookRatingController.php: Handles requests related to book ratings.
+- OrderItemController.php: Handles requests related to order items.
+- AuthorController.php: Handles requests related to authors.
+- ReviewController.php: Handles requests related to reviews.
+- InvoiceController.php: Handles requests related to invoices.
+
+#### Database Structure
+##### Books
+- book_id (Primary Key): Unique identifier for each book.
+- title: Title of the book.
+- author_id (Foreign Key): References the author of the book.
+- ISBN: International Standard Book Number.
+- description: Brief description or synopsis of the book.
+- genre_id (Foreign Key): Classification of the book by genre.
+- price: Price of the book.
+- stock_quantity: Number of available copies in stock.
+- publication_date: Date when the book was published.
+- image_url: URL or reference to the book cover image.
+
+##### Wishlist_Items
+- book_id (Foreign Key): References the book in the wishlist.
+- wishlist_item_id (Primary Key): Unique identifier for each wishlist item.
+- wishlist_id (Foreign Key): References the wishlist.
+
+##### Wishlists
+- wishlist_id (Primary Key): Unique identifier for each wishlist.
+- customer_id (Foreign Key): References the customer who owns the wishlist.
+
+##### Order_Items
+- order_item_id (Primary Key): Unique identifier for each order item.
+- item_price: Price of the book at the time of purchase.
+- quantity: Number of copies of the book purchased.
+- order_id (Foreign Key): References the order.
+- book_id (Foreign Key): References the book.
+
+##### Genres
+- genre_id (Primary Key): Unique identifier for each genre.
+- genre_name: Name of the genre.
+
+##### Authors
+- author_id (Primary Key): Unique identifier for each author.
+- author_name: Name of the author.
+- bio: Brief biography of the author.
+- website: URL or reference to the author`s website.
+
+##### Reviews
+- review_id (Primary Key): Unique identifier for each review.
+- review_date: Date when the review was posted.
+- book_id (Foreign Key): References the book.
+- customer_id (Foreign Key): References the customer who posted the review.
+- rating: Rating of the book on a scale of 1 to 5.
+- review_text: Text of the review.
+
+##### Book_Ratings
+- rating_id (Primary Key): Unique identifier for each rating.
+- book_id (Foreign Key): References the book.
+- customer_id (Foreign Key): References the customer who rated the book.
+- rating: Rating of the book on a scale of 1 to 5.
+
+##### Orders
+- order_id (Primary Key): Unique identifier for each order.
+- total_amount: Total amount of the order.
+- customer_id (Foreign Key): References the customer who placed the order.
+- order_date: Date when the order was placed.
+
+##### Customers
+- email: Email address of the customer.
+- customer_id (Primary Key): Unique identifier for each customer.
+- first_name: First name of the customer.
+- last_name: Last name of the customer.
+- password: Password of the customer.
+- address: Address of the customer.
+
+##### Administrative
+- admin_id (Primary Key): Unique identifier for each administrator.
+- username: Username of the administrator.
+- password: Password of the administrator.
+- permissions: Permissions of the administrator.
+
+##### Invoices
+- invoice_id (Primary Key): Unique identifier for each invoice.
+- invoice_date: Date when the invoice was generated.
+- order_id (Foreign Key): References the order.
+- invoice_number: Number of the invoice.
+- invoice_due_date: Date when the invoice is due.
+- total_amount: Total amount of the invoice.
+- status: Status of the invoice.
+- customer_id (Foreign Key): References the customer who placed the order.
+
 
 
