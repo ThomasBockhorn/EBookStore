@@ -20,6 +20,14 @@ Features of the website include:
 
 
 ## Technical Details
+### Code Structure
+### Data Flow
+#### DTOs and Services
+I will be using DTOs (Data Transfer Objects) to transfer data between the frontend and the backend.
+The reason I will be using DTOs is to separate the data from the business logic. It will be easier to test.
+I will be using services to handle the business logic.  The reason I will be using services is to separate the business logic from the controllers.  It will be easier to test.
+Services will also make the controllers more readable.
+
 ### Frontend
 The frontend of the website is built with Vue 3 and Tailwind.  The frontend is a single page application (SPA) that communicates with the backend through Inertia.js.
 ### Frontend Structure
@@ -173,6 +181,8 @@ The backend is divided into the following components:
 - total_amount: Total amount of the invoice.
 - status: Status of the invoice.
 - customer_id (Foreign Key): References the customer who placed the order.
+
+
 
 
 
