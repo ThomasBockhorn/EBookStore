@@ -2,7 +2,7 @@ import './bootstrap';
 import '../css/app.css';
 
 import { createApp, h } from 'vue';
-import { createInertiaApp, Link } from '@inertiajs/vue3';
+import { createInertiaApp, Link, Head } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m';
 
@@ -16,6 +16,7 @@ createInertiaApp({
             .use(plugin)
             .use(ZiggyVue)
             .component('inertia-link', Link)
+            .component('inertia-head', Head)
             .mount(el);
     },
     progress: {
