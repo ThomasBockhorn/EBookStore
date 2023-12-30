@@ -28,6 +28,9 @@ The reason I will be using DTOs is to separate the data from the business logic.
 I will be using services to handle the business logic.  The reason I will be using services is to separate the business logic from the controllers.  It will be easier to test.
 Services will also make the controllers more readable.
 
+#### Enums
+I will be using enums to represent the status of an invoice and administrator status.  The reason I will be using enums is to make the code more readable.
+
 ### Frontend
 The frontend of the website is built with Vue 3 and Tailwind.  The frontend is a single page application (SPA) that communicates with the backend through Inertia.js.
 ### Frontend Structure
