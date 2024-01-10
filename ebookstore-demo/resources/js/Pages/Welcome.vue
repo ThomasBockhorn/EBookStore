@@ -5,6 +5,9 @@ import GuestLayout from "@/Layouts/GuestLayout.vue";
 
 <template>
     <GuestLayout>
+        <video controls autoplay muted loop>
+            <source :src="'/mov/Main Entry.mp4'" type="video/mp4">
+        </video>
         <div class="min-h-full">
             Test Page
         </div>
