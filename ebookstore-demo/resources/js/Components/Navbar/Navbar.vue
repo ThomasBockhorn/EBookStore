@@ -20,6 +20,7 @@
         <div>
             <div v-if="openMenu" class="bg-white shadow-md">
                 <div class="flex flex-col items-center">
+                    <!-- Make sure to add the list of links here -->
                     <a href="#" class="p-3">Home</a>
                     <a href="#" class="p-3">About</a>
                     <a href="#" class="p-3">Contact</a>
