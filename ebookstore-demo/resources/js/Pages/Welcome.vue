@@ -1,13 +1,12 @@
 <script setup>
 import GuestLayout from "@/Layouts/GuestLayout.vue";
+import MainVideo from "@/Components/MainVideo/MainVideo.vue";
 
 </script>
 
 <template>
     <GuestLayout>
-        <video controls autoplay muted loop>
-            <source :src="'/mov/Main Entry.mp4'" type="video/mp4">
-        </video>
+        <MainVideo />
         <div class="min-h-full">
             Test Page
         </div>
