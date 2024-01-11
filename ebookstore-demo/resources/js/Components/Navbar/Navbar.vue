@@ -6,7 +6,7 @@
 
 <template>
     <div>
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm overflow-hidden">
             <div class="container p-3">
                 <div class="flex justify-between items-center">
                     <input type = "text">

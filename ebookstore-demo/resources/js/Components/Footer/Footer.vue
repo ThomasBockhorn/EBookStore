@@ -4,7 +4,7 @@
 
 <template>
     <footer>
-        <div class="bg-gray-800 text-white">
+        <div class="bg-gray-800 text-white absolute bottom-0 w-full">
             <div class="container mx-auto py-8">
                 <div class="flex flex-wrap">
                     <div class="w-full md:w-1/4 text-center md:text-left">

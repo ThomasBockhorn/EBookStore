@@ -7,8 +7,8 @@ import MainVideo from "@/Components/MainVideo/MainVideo.vue";
 <template>
     <GuestLayout>
         <MainVideo />
-        <div class="min-h-full">
-            Test Page
+        <div>
+           test
         </div>
     </GuestLayout>
 </template>
