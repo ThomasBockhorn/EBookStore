@@ -9,7 +9,7 @@
         <nav class="navbar navbar-expand-md navbar-light shadow-sm overflow-hidden">
             <div class="container p-3">
                 <div class="flex justify-between items-center">
-                    <input type = "text">
+                    <h1>EBookstore</h1>
                     <button class="menu-wrapper mb-2" @click="openMenu = !openMenu" :class="{ active: openMenu }">
                         <span class="menu-bar one"></span>
                         <span class="menu-bar two"></span>
@@ -21,6 +21,7 @@
             <div v-if="openMenu" class="bg-white shadow-md">
                 <div class="flex flex-col items-center">
                     <!-- Make sure to add the list of links here -->
+                    <input type = "text" name = "" id = "" class="m-3">
                     <a href="#" class="p-3">Home</a>
                     <a href="#" class="p-3">About</a>
                     <a href="#" class="p-3">Contact</a>
