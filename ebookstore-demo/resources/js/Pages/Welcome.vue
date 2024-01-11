@@ -7,7 +7,7 @@ import MainVideo from "@/Components/MainVideo/MainVideo.vue";
 <template>
     <GuestLayout>
         <MainVideo />
-        <div>
+        <div class="fixed top-1/2">
            test
         </div>
     </GuestLayout>
