@@ -1,67 +1,52 @@
-<script setup>
-    import { ref } from 'vue';
-    import SearchInput from '../Navbar/SearchInput.vue';
-
-    const openMenu = ref(false);
-</script>
-
 <template>
-    <div>
-        <nav class="navbar navbar-expand-md navbar-light shadow-sm overflow-hidden">
-            <div class="container p-3">
-                <div class="flex justify-between items-center">
-                    <h1>EBookstore</h1>
-                    <button class="menu-wrapper mb-2" @click="openMenu = !openMenu" :class="{ active: openMenu }">
-                        <span class="menu-bar one"></span>
-                        <span class="menu-bar two"></span>
-                    </button>
-                </div>
-            </div>
-        </nav>
-       <div>
-            <div v-if="openMenu" class="bg-white shadow-md">
-                <div class="flex flex-col items-center">
-                    <SearchInput />
-                    <a href="#" class="p-3">Home</a>
-                    <a href="#" class="p-3">About</a>
-                    <a href="#" class="p-3">Contact</a>
-                </div>
-            </div>
+    <header
+        class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md"
+    >
+        <div class="flex-1 flex justify-between items-center">
+            <a href="#" class="text-xl">Company</a>
         </div>
-    </div>
+
+        <label for="menu-toggle" class="pointer-cursor md:hidden block">
+            <svg
+                class="fill-current text-gray-900"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+            >
+                <title>menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+        </label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+
+        <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+            <nav>
+                <ul
+                    class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0"
+                >
+                    <li>
+                        <a class="md:p-4 py-3 px-0 block" href="#">AboutUs</a>
+                    </li>
+                    <li>
+                        <a class="md:p-4 py-3 px-0 block" href="#"
+                            >Treatments</a
+                        >
+                    </li>
+                    <li><a class="md:p-4 py-3 px-0 block" href="#">Blog</a></li>
+                    <li>
+                        <a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#"
+                            >Contact Us</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 </template>
 
-<style scoped>
-.menu-wrapper{
-    width: 40px;
-    height: auto;
-    cursor: pointer;
-    position: relative;
-}
-.menu-bar{
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #000;
-    left: 0;
-}
-.one{
-    top: 0;
-    animation-delay: 0.1s;
-    transition: all 0.3s;
-}
-.two{
-    top: 10px;
-    transition: all 0.3s;
-}
-.active .one{
-    top: 50%;
-    left: 0;
-    transform: rotate(45deg);
-}
-.active .two{
-    top: 50%;
-    left: 0;
-    transform: rotate(-45deg);
-}
-</style>
+<script>
+export default {};
+</script>
+
+<style></style>
