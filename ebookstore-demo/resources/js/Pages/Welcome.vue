@@ -3,10 +3,8 @@
         <!-- source: https://github.com/mfg888/Responsive-Tailwind-CSS-Grid/blob/main/index.html -->
 
         <div class="text-center p-10">
-            <h1 class="font-bold text-4xl mb-4">
-                Responsive Product card grid
-            </h1>
-            <h1 class="text-3xl">Tailwind CSS</h1>
+            <h1 class="font-bold text-4xl mb-4">Welcome to EBookStore</h1>
+            <h1 class="text-3xl">Pick your next read</h1>
         </div>
         <Search />
 
