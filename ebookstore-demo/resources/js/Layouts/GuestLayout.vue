@@ -1,17 +1,24 @@
-<script setup>
-    import Navbar from '../Components/Navbar/Navbar.vue'
-    import Footer from '../Components/Footer/Footer.vue'
-
-</script>
-
 <template>
-    <div>
+    <div class="flex-col w-full">
         <Navbar />
+        <Sidebar />
         <slot />
         <Footer />
     </div>
 </template>
 
-<style scoped>
+<script>
+import Navbar from "../Components/Navbar/Navbar.vue";
+import Footer from "../Components/Footer/Footer.vue";
+import Sidebar from "../Components/Sidebar/Sidebar.vue";
 
-</style>
+export default {
+    components: {
+        Navbar,
+        Footer,
+        Sidebar,
+    },
+};
+</script>
+
+<style scoped></style>
