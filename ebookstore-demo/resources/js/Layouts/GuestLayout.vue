@@ -1,7 +1,7 @@
 <template>
     <div class="flex-col w-full">
-        <Navbar />
-        <Sidebar />
+        <Navbar @toggle-sidebar="showSidebar" />
+        <Sidebar v-if="show" @toggle-sidebar="showSidebar" />
         <slot />
         <Footer />
     </div>
@@ -17,6 +17,16 @@ export default {
         Navbar,
         Footer,
         Sidebar,
+    },
+    data() {
+        return {
+            show: false,
+        };
+    },
+    methods: {
+        showSidebar(value) {
+            this.show = value;
+        },
     },
 };
 </script>
