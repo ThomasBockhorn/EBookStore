@@ -5,20 +5,7 @@
             <span class="text-white font-bold uppercase"
                 >Daystar Dashboard</span
             >
-            <label for="menu-toggle" class="pointer-cursor block">
-                <svg
-                    class="fill-current text-white ml-4"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                >
-                    <title>menu</title>
-                    <path
-                        d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
-                    ></path>
-                </svg>
-            </label>
+            <label for="menu-toggle" class="pointer-cursor block"> </label>
         </div>
         <div class="flex flex-col flex-1 overflow-y-auto">
             <nav class="flex-1 px-2 py-4 bg-gray-800">
