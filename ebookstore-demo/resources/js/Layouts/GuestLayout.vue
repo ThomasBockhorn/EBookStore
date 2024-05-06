@@ -1,7 +1,7 @@
 <template>
     <div class="flex-col w-full">
         <Navbar @toggle-sidebar="showSidebar" />
-        <Sidebar v-if="show" @toggle-sidebar="showSidebar" />
+        <Sidebar v-if="show" />
         <slot />
         <Footer />
     </div>
