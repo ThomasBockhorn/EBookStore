@@ -1,5 +1,4 @@
 <template>
-    <!--   ✅ Product card 6 - Starts Here 👇 -->
     <div
         class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
     >
@@ -49,7 +48,6 @@
             </div>
         </a>
     </div>
-    <!--   🛑 Product card 6 - Ends Here  -->
 </template>
 
 <script>
