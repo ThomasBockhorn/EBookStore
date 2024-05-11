@@ -7,8 +7,6 @@
             <h1 class="text-3xl">Pick your next read</h1>
         </div>
         <Search />
-
-        <!-- ✅ Grid Section - Starts Here 👇 -->
         <section
             id="Projects"
             class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
@@ -16,7 +14,6 @@
             <Book />
         </section>
         <pagination />
-        <!-- 🛑 Grid Section - Ends Here -->
     </GuestLayout>
 </template>
 
