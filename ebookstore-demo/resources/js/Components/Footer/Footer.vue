@@ -3,22 +3,7 @@
         <div
             class="mx-auto max-w-7xl py-8 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
         >
-            <nav
-                class="-mx-5 -my-2 flex flex-wrap justify-center order-2"
-                aria-label="Footer"
-            >
-                <div class="px-5">
-                    <a href="#" class="text-base text-white hover:text-gray-200"
-                        >Terms of Service</a
-                    >
-                </div>
-
-                <div class="px-5">
-                    <a href="#" class="text-base text-white hover:text-gray-200"
-                        >Privacy Policy</a
-                    >
-                </div>
-            </nav>
+            <FooterNav />
             <div class="mt-8 md:mb-8 flex justify-center space-x-6 md:order-3">
                 <a href="#" class="text-white hover:text-gray-200">
                     <span class="sr-only">Facebook</span>
@@ -68,7 +53,7 @@
             </div>
             <div class="mt-8 md:order-1 md:mt-0">
                 <p class="text-center text-base text-white">
-                    &copy; SvelteKit Blog App. MIT Licensed.
+                    &copy; Thomas Bockhorn.
                 </p>
             </div>
         </div>
@@ -76,7 +61,9 @@
 </template>
 
 <script>
-export default {};
+import FooterNav from "./FooterNav.vue";
+
+export default { components: { FooterNav } };
 </script>
 
 <style></style>
