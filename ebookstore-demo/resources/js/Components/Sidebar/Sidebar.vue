@@ -1,5 +1,4 @@
 <template>
-    <!-- sidebar -->
     <div class="md:hidden flex-col w-64 bg-gray-800">
         <div class="flex items-center justify-center h-16 bg-gray-900">
             <span class="text-white font-bold uppercase">EBookStore</span>
