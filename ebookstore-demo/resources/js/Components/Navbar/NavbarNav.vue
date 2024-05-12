@@ -21,14 +21,6 @@
     </nav>
 </template>
 
-<script>
+<script setup>
 import ShoppingCart from "../GlobalComponents/ShoppingCart/ShoppingCart.vue";
-
-export default {
-    components: {
-        ShoppingCart,
-    },
-};
 </script>
-
-<style></style>
