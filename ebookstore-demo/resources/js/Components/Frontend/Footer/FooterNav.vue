@@ -22,9 +22,13 @@
         </div>
 
         <div class="px-5">
-            <a href="#" class="text-base text-white hover:text-gray-200"
-                >Blog</a
+            <Link href="/blog" class="text-base text-white hover:text-gray-200"
+                >Blog</Link
             >
         </div>
     </nav>
 </template>
+
+<script setup>
+import { Link } from "@inertiajs/vue3";
+</script>
