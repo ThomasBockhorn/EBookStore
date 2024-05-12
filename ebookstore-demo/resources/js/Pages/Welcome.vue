@@ -17,9 +17,9 @@
 
 <script>
 import GuestLayout from "@/Layouts/GuestLayout.vue";
-import Pagination from "@/Components/Pagination/Pagination.vue";
-import Search from "@/Components/Search/Search.vue";
-import Book from "@/Components/Books/Book.vue";
+import Pagination from "@/Components/Frontend/Pagination/Pagination.vue";
+import Search from "@/Components/Frontend/Search/Search.vue";
+import Book from "@/Components/Frontend/Books/Book.vue";
 
 export default {
     components: {

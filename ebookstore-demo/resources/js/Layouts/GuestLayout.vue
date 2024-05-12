@@ -8,9 +8,9 @@
 </template>
 
 <script setup>
-import Navbar from "../Components/Navbar/Navbar.vue";
-import Footer from "../Components/Footer/Footer.vue";
-import Sidebar from "../Components/Sidebar/Sidebar.vue";
+import Navbar from "../Components/Frontend/Navbar/Navbar.vue";
+import Footer from "../Components/Frontend/Footer/Footer.vue";
+import Sidebar from "../Components/Frontend/Sidebar/Sidebar.vue";
 import { ref } from "vue";
 
 const show = ref(false);

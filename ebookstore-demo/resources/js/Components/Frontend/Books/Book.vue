@@ -36,5 +36,5 @@
 </template>
 
 <script setup>
-import ShoppingCart from "../GlobalComponents/ShoppingCart/ShoppingCart.vue";
+import ShoppingCart from "@/Components/GlobalComponents/ShoppingCart/ShoppingCart.vue";
 </script>
