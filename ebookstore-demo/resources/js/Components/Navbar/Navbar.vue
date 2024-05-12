@@ -17,27 +17,17 @@
     </header>
 </template>
 
-<script>
+<script setup>
 import NavbarNav from "./NavbarNav.vue";
 import Hamburger from "./NavbarComponents/Hamburger.vue";
+import { ref } from "vue";
 
-export default {
-    data() {
-        return {
-            showSidebar: false,
-        };
-    },
-    methods: {
-        toggleSidebar() {
-            this.showSidebar = !this.showSidebar;
-            this.$emit("toggle-sidebar", this.showSidebar);
-        },
-    },
-    components: {
-        NavbarNav,
-        Hamburger,
-    },
+const sideBar = ref(false);
+
+const emit = defineEmits(["toggle-sidebar"]);
+
+const toggleSidebar = () => {
+    sideBar.value = !sideBar.value;
+    emit("toggle-sidebar", sideBar.value);
 };
 </script>
-
-<style></style>
