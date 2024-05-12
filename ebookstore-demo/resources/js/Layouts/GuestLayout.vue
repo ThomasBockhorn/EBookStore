@@ -7,28 +7,15 @@
     </div>
 </template>
 
-<script>
+<script setup>
 import Navbar from "../Components/Navbar/Navbar.vue";
 import Footer from "../Components/Footer/Footer.vue";
 import Sidebar from "../Components/Sidebar/Sidebar.vue";
+import { ref } from "vue";
 
-export default {
-    components: {
-        Navbar,
-        Footer,
-        Sidebar,
-    },
-    data() {
-        return {
-            show: false,
-        };
-    },
-    methods: {
-        showSidebar(value) {
-            this.show = value;
-        },
-    },
+const show = ref(false);
+
+const showSidebar = (value) => {
+    show.value = value;
 };
 </script>
-
-<style scoped></style>
