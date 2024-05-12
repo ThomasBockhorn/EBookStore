@@ -14,11 +14,7 @@
     </footer>
 </template>
 
-<script>
+<script setup>
 import FooterNav from "./FooterNav.vue";
 import FooterSocialMedia from "./FooterSocialMedia.vue";
-
-export default { components: { FooterNav, FooterSocialMedia } };
 </script>
-
-<style></style>
