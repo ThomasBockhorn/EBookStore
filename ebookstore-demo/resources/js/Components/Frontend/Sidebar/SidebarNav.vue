@@ -1,7 +1,7 @@
 <template>
     <nav class="flex-1 px-2 py-4 bg-gray-800">
-        <a
-            href="#"
+        <Link
+            href="/aboutus"
             class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700"
         >
             <svg
@@ -18,7 +18,7 @@
                 />
             </svg>
             About Us
-        </a>
+        </Link>
         <Link
             href="/blog"
             class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700"
