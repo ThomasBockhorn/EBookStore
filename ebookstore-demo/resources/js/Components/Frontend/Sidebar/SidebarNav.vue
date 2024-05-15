@@ -19,8 +19,8 @@
             </svg>
             AboutUs
         </a>
-        <a
-            href="#"
+        <Link
+            href="/blog"
             class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700"
         >
             <svg
@@ -37,7 +37,7 @@
                 />
             </svg>
             Blog
-        </a>
+        </Link>
         <a
             href="#"
             class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700"
@@ -70,4 +70,5 @@
 
 <script setup>
 import ShoppingCart from "@/Components/GlobalComponents/ShoppingCart/ShoppingCart.vue";
+import { Link } from "@inertiajs/vue3";
 </script>
