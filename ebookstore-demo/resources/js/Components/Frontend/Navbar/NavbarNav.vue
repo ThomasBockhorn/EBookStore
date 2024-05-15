@@ -4,7 +4,9 @@
             class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0"
         >
             <li>
-                <a class="md:p-4 py-3 px-0 block" href="#">About Us</a>
+                <Link class="md:p-4 py-3 px-0 block" href="/aboutus"
+                    >About Us</Link
+                >
             </li>
             <li>
                 <Link class="md:p-4 py-3 px-0 block" href="/blog">Blog</Link>
