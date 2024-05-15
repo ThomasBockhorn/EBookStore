@@ -1,7 +1,10 @@
 <template>
     <div class="flex-col w-full">
         <Navbar @toggle-sidebar="showSidebar" />
-        <Sidebar v-if="show" />
+        <Transition>
+            <Sidebar v-if="show" />
+        </Transition>
+
         <slot />
         <Footer />
     </div>
@@ -19,3 +22,15 @@ const showSidebar = (value) => {
     show.value = value;
 };
 </script>
+
+<style scoped>
+.v-enter-active,
+.ve-leave-active {
+    transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
+}
+</style>
