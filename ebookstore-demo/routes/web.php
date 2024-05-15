@@ -16,6 +16,7 @@ use Inertia\Inertia;
 |
 */
 
+//Public routes
 Route::get('/', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
@@ -31,6 +32,12 @@ Route::get('/aboutus', function() {
     return Inertia::render('AboutUs');
 });
 
+Route::get('/contactus', function() {
+    return Inertia::render('ContactUs');
+});
+
+
+//Admin routes
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
