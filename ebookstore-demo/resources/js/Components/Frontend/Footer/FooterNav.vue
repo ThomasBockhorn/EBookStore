@@ -16,8 +16,10 @@
         </div>
 
         <div class="px-5">
-            <a href="#" class="text-base text-white hover:text-gray-200"
-                >About Us</a
+            <Link
+                href="/aboutus"
+                class="text-base text-white hover:text-gray-200"
+                >About Us</Link
             >
         </div>
 
