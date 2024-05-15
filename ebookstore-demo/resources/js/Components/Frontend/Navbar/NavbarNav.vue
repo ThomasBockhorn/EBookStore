@@ -12,8 +12,10 @@
                 <Link class="md:p-4 py-3 px-0 block" href="/blog">Blog</Link>
             </li>
             <li>
-                <a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#"
-                    >Contact Us</a
+                <Link
+                    class="md:p-4 py-3 px-0 block md:mb-0 mb-2"
+                    href="/contactus"
+                    >Contact Us</Link
                 >
             </li>
             <li>
