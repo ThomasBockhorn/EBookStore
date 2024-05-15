@@ -6,7 +6,9 @@
             <li>
                 <a class="md:p-4 py-3 px-0 block" href="#">AboutUs</a>
             </li>
-            <li><a class="md:p-4 py-3 px-0 block" href="#">Blog</a></li>
+            <li>
+                <Link class="md:p-4 py-3 px-0 block" href="/blog">Blog</Link>
+            </li>
             <li>
                 <a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#"
                     >Contact Us</a
@@ -23,4 +25,5 @@
 
 <script setup>
 import ShoppingCart from "@/Components/GlobalComponents/ShoppingCart/ShoppingCart.vue";
+import { Link } from "@inertiajs/vue3";
 </script>
