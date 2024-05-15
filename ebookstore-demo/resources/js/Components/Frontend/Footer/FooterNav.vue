@@ -28,6 +28,14 @@
                 >Blog</Link
             >
         </div>
+
+        <div class="px-5">
+            <Link
+                href="/contactus"
+                class="text-base text-white hover:text-gray-200"
+                >Contact Us</Link
+            >
+        </div>
     </nav>
 </template>
 
