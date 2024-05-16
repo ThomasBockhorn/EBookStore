@@ -9,12 +9,12 @@
                 class="w-full p-3 rounded-md border-2 border-r-black rounded-r-none border-black placeholder-gray-500"
             />
             <button
-                class="inline-flex items-center gap-2 bg-sky-400 text-black text-lg font-semibold py-3 px-6 rounded-r-md"
+                class="inline-flex items-center gap-2 bg-blue-700 text-white text-lg font-semibold py-3 px-6 rounded-r-md"
             >
                 <span>search</span>
                 <span class="hidden md:block">
                     <svg
-                        class="text-black h-5 w-5 p-0 fill-current"
+                        class="text-white h-5 w-5 p-0 fill-current"
                         xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink"
                         version="1.1"
