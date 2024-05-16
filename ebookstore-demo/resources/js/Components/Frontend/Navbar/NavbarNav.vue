@@ -4,23 +4,25 @@
             class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0"
         >
             <li>
-                <Link class="md:p-4 py-3 px-0 block" href="/aboutus"
+                <Link class="md:p-4 py-3 px-0 block text-white" href="/aboutus"
                     >About Us</Link
                 >
             </li>
             <li>
-                <Link class="md:p-4 py-3 px-0 block" href="/blog">Blog</Link>
+                <Link class="md:p-4 py-3 px-0 block text-white" href="/blog"
+                    >Blog</Link
+                >
             </li>
             <li>
                 <Link
-                    class="md:p-4 py-3 px-0 block md:mb-0 mb-2"
+                    class="md:p-4 py-3 px-0 block md:mb-0 mb-2 text-white"
                     href="/contactus"
                     >Contact Us</Link
                 >
             </li>
             <li>
                 <Link
-                    class="md:p-4 py-3 px-0 block md:mb-0 mb-2"
+                    class="md:p-4 py-3 px-0 block md:mb-0 mb-2 text-white"
                     href="/shoppingcart"
                 >
                     <ShoppingCart />

@@ -1,9 +1,9 @@
 <template>
     <header
-        class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md"
+        class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md bg-sky-500"
     >
         <div class="flex-1 flex justify-between items-center">
-            <Link href="/" class="text-xl">EBookStore</Link>
+            <Link href="/" class="text-xl text-white">EBookStore</Link>
         </div>
 
         <label for="menu-toggle" class="pointer-cursor md:hidden block">
@@ -32,3 +32,5 @@ const toggleSidebar = () => {
     emit("toggle-sidebar", sideBar.value);
 };
 </script>
+
+<style scoped></style>
