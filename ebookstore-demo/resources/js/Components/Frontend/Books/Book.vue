@@ -27,7 +27,9 @@
                         </p>
                     </del>
                     <div class="ml-auto">
-                        <ShoppingCart />
+                        <Link href="/shoppingcart">
+                            <ShoppingCart />
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -37,4 +39,5 @@
 
 <script setup>
 import ShoppingCart from "@/Components/GlobalComponents/ShoppingCart/ShoppingCart.vue";
+import { Link } from "@inertiajs/vue3";
 </script>
