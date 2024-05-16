@@ -48,4 +48,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::get('/shoppingcart', function() {
+    return Inertia::render('Backend/ShoppingCart');
+})->middleware(['auth', 'verified'])->name('shoppingcart');
+
 require __DIR__.'/auth.php';
