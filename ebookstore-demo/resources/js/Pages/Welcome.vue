@@ -1,8 +1,10 @@
 <template>
     <GuestLayout>
-        <div class="text-center p-10">
-            <h1 class="font-bold text-4xl mb-4">Welcome to EBookStore</h1>
-            <h1 class="text-3xl">Pick your next read</h1>
+        <div class="text-center p-10 box mb-5">
+            <h1 class="font-bold text-4xl mb-4 text-white">
+                Welcome to EBookStore
+            </h1>
+            <h1 class="text-3xl text-white">Pick your next read</h1>
         </div>
         <Search />
         <section
@@ -21,3 +23,14 @@ import Pagination from "@/Components/Frontend/Pagination/Pagination.vue";
 import Search from "@/Components/Frontend/Search/Search.vue";
 import Book from "@/Components/Frontend/Books/Book.vue";
 </script>
+
+<style scoped>
+.box {
+    background: rgb(8, 166, 247);
+    background: linear-gradient(
+        90deg,
+        rgba(8, 166, 247, 1) 51%,
+        rgba(8, 47, 247, 1) 100%
+    );
+}
+</style>
