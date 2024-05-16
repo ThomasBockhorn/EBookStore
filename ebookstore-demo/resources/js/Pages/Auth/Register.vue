@@ -24,7 +24,7 @@ const submit = () => {
 
         <form @submit.prevent="submit">
             <div>
-                <label for="name" class="text-white">Name</label>
+                <label for="name" class="text-white font-medium">Name</label>
 
                 <input
                     id="name"
@@ -40,7 +40,7 @@ const submit = () => {
             </div>
 
             <div class="mt-4">
-                <label for="email" class="text-white">Email</label>
+                <label for="email" class="text-white font-medium">Email</label>
 
                 <input
                     id="email"
@@ -55,7 +55,9 @@ const submit = () => {
             </div>
 
             <div class="mt-4">
-                <label for="password" class="text-white">Password</label>
+                <label for="password" class="text-white font-medium"
+                    >Password</label
+                >
 
                 <input
                     id="password"
@@ -70,7 +72,9 @@ const submit = () => {
             </div>
 
             <div class="mt-4">
-                <label for="password_confirmation" class="text-white"
+                <label
+                    for="password_confirmation"
+                    class="text-white font-medium"
                     >Confirm Password</label
                 >
 
@@ -92,7 +96,7 @@ const submit = () => {
             <div class="flex items-center justify-end mt-4">
                 <Link
                     :href="route('login')"
-                    class="underline text-sm text-white hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    class="underline text-sm text-white font-medium hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                     Already registered?
                 </Link>
