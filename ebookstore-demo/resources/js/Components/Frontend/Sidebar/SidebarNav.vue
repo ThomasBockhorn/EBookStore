@@ -58,13 +58,13 @@
 
             Contact Us
         </Link>
-        <a
-            href="#"
+        <Link
+            href="/shoppingcart"
             class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700"
         >
             <ShoppingCart />
             <span class="ml-3">Shopping Cart</span>
-        </a>
+        </Link>
     </nav>
 </template>
 
