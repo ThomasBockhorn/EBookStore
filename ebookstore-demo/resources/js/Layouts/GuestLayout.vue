@@ -1,11 +1,13 @@
 <template>
-    <div class="flex-col w-full">
+    <div class="flex-col w-full bg-sky-500">
         <Navbar @toggle-sidebar="showSidebar" />
         <Transition>
             <Sidebar v-if="show" />
         </Transition>
+        <div class="bg-white">
+            <slot />
+        </div>
 
-        <slot />
         <Footer />
     </div>
 </template>

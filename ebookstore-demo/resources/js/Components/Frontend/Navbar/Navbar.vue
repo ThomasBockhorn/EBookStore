@@ -1,6 +1,6 @@
 <template>
     <header
-        class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md bg-sky-500"
+        class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 bg-sky-500"
     >
         <div class="flex-1 flex justify-between items-center">
             <Link href="/" class="text-xl text-white">EBookStore</Link>

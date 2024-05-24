@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex-1 px-2 py-4 bg-gray-800">
+    <nav class="flex flex-col items-center px-2 py-4 bg-gray-800 w-full">
         <Link
             href="/aboutus"
             class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700"
