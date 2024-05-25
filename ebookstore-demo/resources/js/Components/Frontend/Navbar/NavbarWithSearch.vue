@@ -71,7 +71,7 @@
                 </button>
             </div>
             <div
-                class="items-center justify-between md:mt-5 w-full hidden md:flex md:w-auto md:order-1"
+                class="items-center justify-between w-full hidden md:flex md:w-auto md:order-1"
                 id="navbar-search"
             >
                 <Search />
