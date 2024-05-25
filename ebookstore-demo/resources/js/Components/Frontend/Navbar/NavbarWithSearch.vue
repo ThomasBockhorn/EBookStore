@@ -3,12 +3,7 @@
         <div
             class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
         >
-            <Link href="/" class="flex items-center space-x-3">
-                <span
-                    class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-                    >Ebookstore</span
-                >
-            </Link>
+            <HeaderLink> EBookStore </HeaderLink>
             <div class="flex md:order-2">
                 <button
                     type="button"
@@ -53,9 +48,9 @@
 <script setup>
 import NavbarNav from "./NavbarNav.vue";
 import Search from "../Search/Search.vue";
-import { Link } from "@inertiajs/vue3";
 import SearchIcon from "@/Components/GlobalComponents/NavbarComponents/SearchIcon.vue";
 import HamburgerIcon from "@/Components/GlobalComponents/NavbarComponents/HamburgerIcon.vue";
+import HeaderLink from "@/Components/GlobalComponents/NavbarComponents/HeaderLink.vue";
 
 const toggleHamburger = () => {
     const navbar = document.getElementById("navbar-search");
