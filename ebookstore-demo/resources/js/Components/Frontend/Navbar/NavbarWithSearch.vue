@@ -18,21 +18,7 @@
                     aria-expanded="false"
                     class="md:hidden text-white hover:bg-white hover:text-black focus:outline-none focus:ring-4 focus:ring-gray-200 rounded-lg text-sm p-2.5 me-1"
                 >
-                    <svg
-                        class="w-5 h-5"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 20 20"
-                    >
-                        <path
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-                        />
-                    </svg>
+                    <SearchIcon />
                     <span class="sr-only">Search</span>
                 </button>
                 <div class="relative hidden md:block">
@@ -47,21 +33,7 @@
                     @click="toggleHamburger"
                 >
                     <span class="sr-only">Open main menu</span>
-                    <svg
-                        class="w-5 h-5"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 17 14"
-                    >
-                        <path
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M1 1h15M1 7h15M1 13h15"
-                        />
-                    </svg>
+                    <HamburgerIcon />
                 </button>
             </div>
             <div
@@ -82,6 +54,8 @@
 import NavbarNav from "./NavbarNav.vue";
 import Search from "../Search/Search.vue";
 import { Link } from "@inertiajs/vue3";
+import SearchIcon from "@/Components/GlobalComponents/NavbarComponents/SearchIcon.vue";
+import HamburgerIcon from "@/Components/GlobalComponents/NavbarComponents/HamburgerIcon.vue";
 
 const toggleHamburger = () => {
     const navbar = document.getElementById("navbar-search");
