@@ -1,10 +1,6 @@
 <template>
     <div class="flex-col w-full bg-sky-500">
         <NavbarWithSearch />
-        <Navbar @toggle-sidebar="showSidebar" />
-        <Transition>
-            <Sidebar v-if="show" />
-        </Transition>
         <div class="bg-white">
             <slot />
         </div>
@@ -14,9 +10,7 @@
 </template>
 
 <script setup>
-import Navbar from "../Components/Frontend/Navbar/Navbar.vue";
 import Footer from "../Components/Frontend/Footer/Footer.vue";
-import Sidebar from "../Components/Frontend/Sidebar/Sidebar.vue";
 import NavbarWithSearch from "../Components/Frontend/Navbar/NavbarWithSearch.vue";
 import { ref } from "vue";
 
