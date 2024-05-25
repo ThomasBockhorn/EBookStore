@@ -11,7 +11,7 @@
                     @click="toggleHamburger"
                     aria-controls="navbar-search"
                     aria-expanded="false"
-                    class="md:hidden text-white hover:bg-white hover:text-black focus:outline-none focus:ring-4 focus:ring-gray-200 rounded-lg text-sm p-2.5 me-1"
+                    class="md:hidden text-white hover:bg-white hover:text-black focus:outline-none focus:ring-4 focus:ring-white rounded-lg text-sm p-2.5 me-1"
                 >
                     <SearchIcon />
                     <span class="sr-only">Search</span>
@@ -22,7 +22,7 @@
                 <button
                     data-collapse-toggle="navbar-search"
                     type="button"
-                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-white"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-white me-1"
                     aria-controls="navbar-search"
                     aria-expanded="false"
                     @click="toggleHamburger"
