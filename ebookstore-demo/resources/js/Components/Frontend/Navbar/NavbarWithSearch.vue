@@ -36,12 +36,7 @@
                     <span class="sr-only">Search</span>
                 </button>
                 <div class="relative hidden md:block">
-                    <input
-                        type="text"
-                        id="search-navbar"
-                        class="block w-full p-2 ps-10 text-sm text-black border border-black rounded-lg bg-white focus:ring-blue-500 focus:border-blue-500"
-                        placeholder="Search..."
-                    />
+                    <Search />
                 </div>
                 <button
                     data-collapse-toggle="navbar-search"
@@ -73,7 +68,10 @@
                 class="items-center justify-between w-full hidden md:flex md:w-auto md:order-1"
                 id="navbar-search"
             >
-                <Search />
+                <div class="relative md:hidden">
+                    <Search />
+                </div>
+
                 <NavbarNav />
             </div>
         </div>
