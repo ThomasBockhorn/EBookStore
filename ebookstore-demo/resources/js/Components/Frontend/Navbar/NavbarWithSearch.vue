@@ -85,12 +85,9 @@
 import NavbarNav from "./NavbarNav.vue";
 import Search from "../Search/Search.vue";
 import { Link } from "@inertiajs/vue3";
-import { ref } from "vue";
 
 const toggleHamburger = () => {
     const navbar = document.getElementById("navbar-search");
     navbar.classList.toggle("hidden");
 };
 </script>
-
-<style></style>
