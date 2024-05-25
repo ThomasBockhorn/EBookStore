@@ -36,7 +36,6 @@
                     <span class="sr-only">Search</span>
                 </button>
                 <div class="relative hidden md:block">
-                    <Search />
                     <input
                         type="text"
                         id="search-navbar"
