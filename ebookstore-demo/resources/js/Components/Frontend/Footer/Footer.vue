@@ -7,7 +7,7 @@
             <FooterSocialMedia />
             <div class="mt-8 md:order-1 md:mt-0">
                 <p class="text-center text-base text-white">
-                    &copy; Thomas Bockhorn.
+                    &copy; 2024 Thomas Bockhorn.
                 </p>
             </div>
         </div>
