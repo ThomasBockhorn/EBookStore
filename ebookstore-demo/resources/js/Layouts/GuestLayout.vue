@@ -4,7 +4,6 @@
         <div class="bg-white">
             <slot />
         </div>
-
         <Footer />
     </div>
 </template>
