@@ -4,25 +4,27 @@
         aria-label="Footer"
     >
         <div class="px-5">
-            <a href="#" class="text-base text-white hover:text-black"
+            <a href="#" class="text-base text-white hover:text-sky-300"
                 >Terms of Service</a
             >
         </div>
 
         <div class="px-5">
-            <a href="#" class="text-base text-white hover:text-black"
+            <a href="#" class="text-base text-white hover:text-sky-300"
                 >Privacy Policy</a
             >
         </div>
 
         <div class="px-5">
-            <Link href="/aboutus" class="text-base text-white hover:text-black"
+            <Link
+                href="/aboutus"
+                class="text-base text-white hover:text-sky-300"
                 >About Us</Link
             >
         </div>
 
         <div class="px-5">
-            <Link href="/blog" class="text-base text-white hover:text-black"
+            <Link href="/blog" class="text-base text-white hover:text-sky-300"
                 >Blog</Link
             >
         </div>
@@ -30,7 +32,7 @@
         <div class="px-5">
             <Link
                 href="/contactus"
-                class="text-base text-white hover:text-black"
+                class="text-base text-white hover:text-sky-300"
                 >Contact Us</Link
             >
         </div>
