@@ -5,7 +5,7 @@
         <li>
             <Link
                 href="/aboutus"
-                class="block py-2 px-3 text-white bg-sky-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+                class="block py-2 px-3 text-white bg-sky-700 rounded md:bg-transparent md:hover:text-black md:p-0"
                 aria-current="page"
                 >About Us</Link
             >
@@ -14,21 +14,21 @@
         <li>
             <Link
                 href="/blog"
-                class="block py-2 px-3 text-white rounded hover:bg-sky-300 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
+                class="block py-2 px-3 text-white rounded hover:bg-sky-300 md:hover:bg-transparent md:hover:text-black md:p-0"
                 >Blog</Link
             >
         </li>
         <li>
             <Link
                 href="/contactus"
-                class="block py-2 px-3 text-white rounded hover:bg-sky-300 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
+                class="block py-2 px-3 text-white rounded hover:bg-sky-300 md:hover:bg-transparent md:hover:text-black md:p-0"
                 >Contact Us</Link
             >
         </li>
         <li>
             <Link
                 href="/shoppingcart"
-                class="block py-2 px-3 text-white rounded hover:bg-sky-300 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
+                class="block py-2 px-3 text-white rounded hover:bg-sky-300 md:hover:bg-transparent md:hover:text-black md:p-0"
                 ><ShoppingCart
             /></Link>
         </li>
