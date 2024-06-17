@@ -19,7 +19,7 @@
 
 <script setup>
 import NavbarNav from "./NavbarNav.vue";
-import Hamburger from "@/Components/GlobalComponents/NavbarComponents/Hamburger.vue";
+import Hamburger from "@/Components/GlobalComponents/NavbarComponents/HamburgerIcon.vue";
 import { ref } from "vue";
 
 const sideBar = ref(false);
