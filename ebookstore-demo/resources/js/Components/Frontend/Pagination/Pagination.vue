@@ -1,7 +1,7 @@
 <template>
-    <nav class="inline-flex items-center p-1 rounded bg-white space-x-2">
+    <nav class="inline-flex items-center p-1 rounded bg-inherit space-x-2">
         <a
-            class="p-1 rounded border text-black bg-white hover:text-white hover:bg-blue-600 hover:border-blue-600"
+            class="p-1 rounded border text-black bg-inherit hover:text-white hover:bg-blue-600 hover:border-blue-600"
             href="#"
         >
             <svg
@@ -18,7 +18,7 @@
         </a>
         <p class="text-black">Page 1 of 10</p>
         <a
-            class="p-1 rounded border text-black bg-white hover:text-white hover:bg-blue-600 hover:border-blue-600"
+            class="p-1 rounded border text-black bg-inherit hover:text-white hover:bg-blue-600 hover:border-blue-600"
             href="#"
         >
             <svg
