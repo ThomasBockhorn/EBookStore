@@ -1,10 +1,9 @@
 <template>
     <GuestLayout>
         <section>
-            <div class="text-center bg-sky-500">
-                <h1 class="font-bold text-4xl text-white">Blog</h1>
+            <div class="text-center bg-sky-900">
+                <h1 class="font-bold text-4xl text-white p-5">Blog</h1>
             </div>
-            <WaveHeader />
         </section>
     </GuestLayout>
 </template>
