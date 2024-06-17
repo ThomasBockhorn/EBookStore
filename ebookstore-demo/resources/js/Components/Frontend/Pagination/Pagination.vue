@@ -16,7 +16,7 @@
                 />
             </svg>
         </a>
-        <p class="text-gray-500">Page 1 of 10</p>
+        <p class="text-black">Page 1 of 10</p>
         <a
             class="p-1 rounded border text-black bg-white hover:text-white hover:bg-blue-600 hover:border-blue-600"
             href="#"
