@@ -1,5 +1,5 @@
 <template>
-    <nav class="bg-sky-500">
+    <nav class="bg-sky-900">
         <div
             class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
         >

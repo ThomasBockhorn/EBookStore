@@ -1,13 +1,9 @@
 <template>
     <GuestLayout>
         <section>
-            <div class="text-center bg-sky-500">
-                <h1 class="font-bold text-4xl text-white">
-                    Welcome to EBookStore
-                </h1>
-                <h1 class="text-3xl text-white">Pick your next read</h1>
+            <div class="text-center bg-sky-700">
+                <h1 class="font-bold text-4xl text-white p-5">Welcome</h1>
             </div>
-            <WaveHeader />
         </section>
         <section
             id="Projects"
