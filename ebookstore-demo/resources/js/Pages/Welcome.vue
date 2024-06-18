@@ -6,44 +6,72 @@
             </div>
         </section>
         <section
-            id="Projects"
-            class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
+            class="w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
         >
             <div
                 id="sales"
                 class="text-center border-2 border-black m-5 bg-slate-200 rounded-lg shadow-lg"
             >
                 <h2 class="font-bold text-2xl text-black p-5">Sales</h2>
-                <Book />
-                <Book />
-                <Book />
+                <div
+                    class="w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-5 gap-x-7 mt-10 p-5"
+                >
+                    <Book />
+                    <Book />
+                    <Book />
+                    <div>
+                        <h3>More...</h3>
+                    </div>
+                </div>
             </div>
             <div
                 id="history"
                 class="text-center border-2 border-black m-5 bg-slate-200 rounded-lg shadow-lg"
             >
                 <h2 class="font-bold text-2xl text-black p-5">History</h2>
-                <Book />
-                <Book />
-                <Book />
+                <div
+                    class="w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-5 gap-x-7 mt-10 p-5"
+                >
+                    <Book />
+                    <Book />
+                    <Book />
+                    <div>
+                        <h3>More...</h3>
+                    </div>
+                </div>
             </div>
             <div
                 id="fiction"
                 class="text-center border-2 border-black m-5 bg-slate-200 rounded-lg shadow-lg"
             >
                 <h2 class="font-bold text-2xl text-black p-5">Fiction</h2>
-                <Book />
-                <Book />
-                <Book />
+
+                <div
+                    class="w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-5 gap-x-7 mt-10 p-5"
+                >
+                    <Book />
+                    <Book />
+                    <Book />
+                    <div>
+                        <h3>More...</h3>
+                    </div>
+                </div>
             </div>
             <div
                 id="biography"
                 class="text-center border-2 border-black m-5 bg-slate-200 rounded-lg shadow-lg"
             >
                 <h2 class="font-bold text-2xl text-black p-5">Biography</h2>
-                <Book />
-                <Book />
-                <Book />
+                <div
+                    class="w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-5 gap-x-7 mt-10 p-5"
+                >
+                    <Book />
+                    <Book />
+                    <Book />
+                    <div>
+                        <h3>More...</h3>
+                    </div>
+                </div>
             </div>
         </section>
         <pagination />
