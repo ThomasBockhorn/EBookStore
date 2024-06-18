@@ -6,11 +6,11 @@
             </div>
         </section>
         <section
-            class="w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
+            class="bg-white w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
         >
             <div
                 id="sales"
-                class="text-center border-2 border-black m-5 bg-slate-200 rounded-lg shadow-lg"
+                class="text-center border-2 border-black m-5 bg-white rounded-lg shadow-lg"
             >
                 <h2 class="font-bold text-2xl text-black p-5">Sales</h2>
                 <div
@@ -26,7 +26,7 @@
             </div>
             <div
                 id="history"
-                class="text-center border-2 border-black m-5 bg-slate-200 rounded-lg shadow-lg"
+                class="text-center border-2 border-black m-5 bg-white rounded-lg shadow-lg"
             >
                 <h2 class="font-bold text-2xl text-black p-5">History</h2>
                 <div
@@ -42,7 +42,7 @@
             </div>
             <div
                 id="fiction"
-                class="text-center border-2 border-black m-5 bg-slate-200 rounded-lg shadow-lg"
+                class="text-center border-2 border-black m-5 bg-white rounded-lg shadow-lg"
             >
                 <h2 class="font-bold text-2xl text-black p-5">Fiction</h2>
 
@@ -59,7 +59,7 @@
             </div>
             <div
                 id="biography"
-                class="text-center border-2 border-black m-5 bg-slate-200 rounded-lg shadow-lg"
+                class="text-center border-2 border-black m-5 bg-white rounded-lg shadow-lg"
             >
                 <h2 class="font-bold text-2xl text-black p-5">Biography</h2>
                 <div
