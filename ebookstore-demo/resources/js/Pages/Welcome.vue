@@ -25,7 +25,6 @@
 import GuestLayout from "@/Layouts/GuestLayout.vue";
 import Pagination from "@/Components/Frontend/Pagination/Pagination.vue";
 import Book from "@/Components/Frontend/Books/Book.vue";
-import WaveHeader from "@/Components/GlobalComponents/WaveHeader/WaveHeader.vue";
 </script>
 
 <style scoped></style>

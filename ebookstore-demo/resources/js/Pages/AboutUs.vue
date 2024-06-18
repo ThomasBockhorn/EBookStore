@@ -10,7 +10,6 @@
 
 <script setup>
 import GuestLayout from "@/Layouts/GuestLayout.vue";
-import WaveHeader from "@/Components/GlobalComponents/WaveHeader/WaveHeader.vue";
 </script>
 
 <style></style>
