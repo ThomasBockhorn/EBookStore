@@ -15,6 +15,35 @@
             >
                 <h2 class="font-bold text-2xl text-black p-5">Sales</h2>
                 <Book />
+                <Book />
+                <Book />
+            </div>
+            <div
+                id="history"
+                class="text-center border-2 border-black m-5 bg-slate-200 rounded-lg shadow-lg"
+            >
+                <h2 class="font-bold text-2xl text-black p-5">History</h2>
+                <Book />
+                <Book />
+                <Book />
+            </div>
+            <div
+                id="fiction"
+                class="text-center border-2 border-black m-5 bg-slate-200 rounded-lg shadow-lg"
+            >
+                <h2 class="font-bold text-2xl text-black p-5">Fiction</h2>
+                <Book />
+                <Book />
+                <Book />
+            </div>
+            <div
+                id="biography"
+                class="text-center border-2 border-black m-5 bg-slate-200 rounded-lg shadow-lg"
+            >
+                <h2 class="font-bold text-2xl text-black p-5">Biography</h2>
+                <Book />
+                <Book />
+                <Book />
             </div>
         </section>
         <pagination />
