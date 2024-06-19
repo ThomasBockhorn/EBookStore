@@ -27,6 +27,13 @@
         </li>
         <li>
             <Link
+                href="/contactus"
+                class="block py-2 px-3 text-white rounded md:hover:bg-transparent md:hover:text-sky-300 md:p-0"
+                >Books</Link
+            >
+        </li>
+        <li>
+            <Link
                 href="/shoppingcart"
                 class="block py-2 px-3 text-white rounded md:hover:bg-transparent md:hover:text-sky-300 md:p-0"
                 ><ShoppingCart
