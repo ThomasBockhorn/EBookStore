@@ -24,7 +24,7 @@
                     <Book />
                     <Book />
                     <div>
-                        <h3>More...</h3>
+                        <a href="#">More...</a>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                     <Book />
                     <Book />
                     <div>
-                        <h3>More...</h3>
+                        <a href="#">More...</a>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
                     <Book />
                     <Book />
                     <div>
-                        <h3>More...</h3>
+                        <a href="#">More...</a>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                     <Book />
                     <Book />
                     <div>
-                        <h3>More...</h3>
+                        <a href="#">More...</a>
                     </div>
                 </div>
             </div>
