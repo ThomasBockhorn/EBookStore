@@ -6,13 +6,17 @@
             </div>
         </section>
         <section
-            class="bg-white w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
+            class="bg-inherit w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
         >
             <div
                 id="sales"
-                class="text-center border-2 border-black m-5 bg-white rounded-lg shadow-lg"
+                class="text-center border-2 border-bg-sky-900 m-5 bg-white rounded-lg shadow-2xl shadow-gray-500"
             >
-                <h2 class="font-bold text-2xl text-black p-5">Sales</h2>
+                <h2
+                    class="font-bold text-2xl text-white bg-sky-900 p-5 rounded-t-lg"
+                >
+                    Sales
+                </h2>
                 <div
                     class="w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-5 gap-x-7 mt-10 p-5"
                 >
@@ -26,9 +30,13 @@
             </div>
             <div
                 id="history"
-                class="text-center border-2 border-black m-5 bg-white rounded-lg shadow-lg"
+                class="text-center border-2 border-bg-sky-900 m-5 bg-white rounded-lg shadow-2xl shadow-gray-500"
             >
-                <h2 class="font-bold text-2xl text-black p-5">New Arrival</h2>
+                <h2
+                    class="font-bold text-2xl text-white bg-sky-900 p-5 rounded-t-lg"
+                >
+                    New Arrival
+                </h2>
                 <div
                     class="w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-5 gap-x-7 mt-10 p-5"
                 >
@@ -42,9 +50,13 @@
             </div>
             <div
                 id="fiction"
-                class="text-center border-2 border-black m-5 bg-white rounded-lg shadow-lg"
+                class="text-center border-2 border-bg-sky-900 m-5 bg-white rounded-lg shadow-2xl shadow-gray-500"
             >
-                <h2 class="font-bold text-2xl text-black p-5">Best Sellers</h2>
+                <h2
+                    class="font-bold text-2xl text-white bg-sky-900 p-5 rounded-t-lg"
+                >
+                    Best Sellers
+                </h2>
 
                 <div
                     class="w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-5 gap-x-7 mt-10 p-5"
@@ -59,9 +71,13 @@
             </div>
             <div
                 id="biography"
-                class="text-center border-2 border-black m-5 bg-white rounded-lg shadow-lg"
+                class="text-center border-2 border-bg-sky-900 m-5 bg-white rounded-lg shadow-2xl shadow-gray-500"
             >
-                <h2 class="font-bold text-2xl text-black p-5">Clearance</h2>
+                <h2
+                    class="font-bold text-2xl text-white bg-sky-900 p-5 rounded-t-lg"
+                >
+                    Clearance
+                </h2>
                 <div
                     class="w-fit mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center justify-center gap-y-5 gap-x-7 mt-10 p-5"
                 >
