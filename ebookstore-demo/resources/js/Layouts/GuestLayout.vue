@@ -1,7 +1,7 @@
 <template>
-    <div class="flex-col w-full">
+    <div class="flex-col w-full min-h-screen bg-gray-200">
         <NavbarWithSearch />
-        <div class="bg-white">
+        <div>
             <slot />
         </div>
         <Footer />
