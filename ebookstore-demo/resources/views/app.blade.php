@@ -14,6 +14,17 @@
         @routes
         @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
         @inertiaHead
+        <style>
+            /* hide scrollbar but allow scrolling */
+            element {
+                -ms-overflow-style: none; /* for Internet Explorer, Edge */
+                scrollbar-width: none; /* for Firefox */
+                overflow-y: scroll;
+            }
+            element::-webkit-scrollbar {
+                display: none; /* for Chrome, Safari, and Opera */
+            }
+        </style>
     </head>
     <body class="font-sans antialiased">
         @inertia
