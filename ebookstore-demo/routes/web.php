@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\BookController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -35,6 +36,8 @@ Route::get('/aboutus', function() {
 Route::get('/contactus', function() {
     return Inertia::render('ContactUs');
 });
+
+Route::resource('books', BookController::class);
 
 
 //Admin routes
