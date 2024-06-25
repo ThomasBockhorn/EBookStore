@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\BookController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -21,24 +21,23 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register')
+        'canRegister' => Route::has('register'),
     ]);
 });
 
-Route::get('/blog', function() {
+Route::get('/blog', function () {
     return Inertia::render('Blog');
 });
 
-Route::get('/aboutus', function() {
+Route::get('/aboutus', function () {
     return Inertia::render('AboutUs');
 });
 
-Route::get('/contactus', function() {
+Route::get('/contactus', function () {
     return Inertia::render('ContactUs');
 });
 
 Route::resource('books', BookController::class);
-
 
 //Admin routes
 Route::get('/dashboard', function () {
@@ -51,7 +50,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/shoppingcart', function() {
+Route::get('/shoppingcart', function () {
     return Inertia::render('Backend/ShoppingCart');
 })->middleware(['auth', 'verified'])->name('shoppingcart');
 
