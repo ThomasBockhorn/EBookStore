@@ -35,7 +35,7 @@
                                 >Shop</Link
                             >
                         </li>
-                        <li>
+                        <li v-if="route().current() != 'shop'">
                             <a
                                 class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
                                 href="#about"
