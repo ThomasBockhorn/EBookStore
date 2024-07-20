@@ -23,7 +23,7 @@ Route::get('/', function () {
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
     ]);
-});
+})->name('index');
 
 Route::get('/shop', function(){
     return Inertia::render('Shop');

@@ -47,12 +47,12 @@
             </div>
 
             <div class="order-1 md:order-2">
-                <a
+                <Link
                     class="flex items-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl"
-                    href="#"
+                    :href="route('index')"
                 >
                     Patterson's Page Turners
-                </a>
+                </Link>
             </div>
 
             <div class="order-2 md:order-3 flex items-center" id="nav-content">
