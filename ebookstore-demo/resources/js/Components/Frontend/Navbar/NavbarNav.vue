@@ -4,7 +4,11 @@
         <div
             class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3"
         >
-            <label for="menu-toggle" class="cursor-pointer md:hidden block">
+            <label
+                for="menu-toggle"
+                class="cursor-pointer md:hidden block"
+                @click="toDisplay = !toDisplay"
+            >
                 <svg
                     class="fill-current text-gray-900"
                     xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +25,8 @@
             <input class="hidden" type="checkbox" id="menu-toggle" />
 
             <div
-                class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1"
+                :class="{ hidden: toDisplay }"
+                class="md:flex md:items-center md:w-auto w-full order-3 md:order-1"
                 id="menu"
             >
                 <nav>
@@ -103,4 +108,7 @@
 
 <script setup>
 import { Link } from "@inertiajs/vue3";
+import { ref } from "vue";
+
+let toDisplay = ref(false);
 </script>
