@@ -24,6 +24,10 @@
             element::-webkit-scrollbar {
                 display: none; /* for Chrome, Safari, and Opera */
             }
+
+            html{
+                scroll-behavior: smooth;
+            }
         </style>
     </head>
     <body class="font-sans antialiased">
