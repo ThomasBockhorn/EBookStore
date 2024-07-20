@@ -29,10 +29,10 @@
                         class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0"
                     >
                         <li>
-                            <a
+                            <Link
                                 class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
-                                href="#"
-                                >Shop</a
+                                :href="route('shop')"
+                                >Shop</Link
                             >
                         </li>
                         <li>

@@ -17,7 +17,7 @@ use Inertia\Inertia;
 |
 */
 
-//Public routes
+/* ----------------------------- Public routes ----------------------- */
 Route::get('/', function () {
     return Inertia::render('Index', [
         'canLogin' => Route::has('login'),
@@ -25,21 +25,13 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/blog', function () {
-    return Inertia::render('Blog');
-});
+Route::get('/shop', function(){
+    return Inertia::render('Shop');
+})->name('shop');
 
-Route::get('/aboutus', function () {
-    return Inertia::render('AboutUs');
-});
 
-Route::get('/contactus', function () {
-    return Inertia::render('ContactUs');
-});
 
-Route::resource('books', BookController::class);
-
-//Admin routes
+/* ------------------------------- Admin routes ------------------------ */
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
