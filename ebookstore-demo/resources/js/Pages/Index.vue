@@ -234,54 +234,41 @@
 
         <section id="about" class="bg-white py-8">
             <div class="container py-8 px-6 mx-auto">
-                <a
-                    class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl mb-8"
-                    href="#"
+                <h3
+                    class="uppercase tracking-wide font-bold text-gray-800 text-xl mb-8"
                 >
                     About
-                </a>
-
-                <p class="mt-8 mb-8">
-                    This template is inspired by the stunning nordic minimalist
-                    design - in particular:
-                    <br />
-                    <a
-                        class="text-gray-800 underline hover:text-gray-900"
-                        href="http://savoy.nordicmade.com/"
-                        target="_blank"
-                        >Savoy Theme</a
-                    >
-                    created by
-                    <a
-                        class="text-gray-800 underline hover:text-gray-900"
-                        href="https://nordicmade.com/"
-                        >https://nordicmade.com/</a
-                    >
-                    and
-                    <a
-                        class="text-gray-800 underline hover:text-gray-900"
-                        href="https://www.metricdesign.no/"
-                        target="_blank"
-                        >https://www.metricdesign.no/</a
-                    >
-                </p>
-
+                </h3>
                 <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur
-                    <a href="#">random link</a> adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Vel
-                    risus commodo viverra maecenas accumsan lacus vel facilisis
-                    volutpat. Vitae aliquet nec ullamcorper sit. Nullam eget
-                    felis eget nunc lobortis mattis aliquam. In est ante in nibh
-                    mauris. Egestas congue quisque egestas diam in. Facilisi
-                    nullam vehicula ipsum a arcu. Nec nam aliquam sem et tortor
-                    consequat. Eget mi proin sed libero enim sed faucibus turpis
-                    in. Hac habitasse platea dictumst quisque. In aliquam sem
-                    fringilla ut. Gravida rutrum quisque non tellus orci ac
-                    auctor augue mauris. Accumsan lacus vel facilisis volutpat
-                    est velit egestas dui id. At tempor commodo ullamcorper a.
-                    Volutpat commodo sed egestas egestas fringilla. Vitae congue
-                    eu consequat ac.
+                    About Us Welcome to Patterson's Page Turners, your premier
+                    destination for all things literary. Founded with a passion
+                    for books and a commitment to customer satisfaction, we
+                    strive to bring you an unparalleled selection of titles
+                    across genres, authors, and interests. Whether you're a
+                    seasoned bibliophile or a casual reader, our carefully
+                    curated collection ensures you'll find something to
+                    captivate your imagination.
+                </p>
+                <p class="mb-8">
+                    At Patterson's Page Turners, we believe that books have the
+                    power to inspire, educate, and entertain. Our user-friendly
+                    online store is designed to provide a seamless shopping
+                    experience, allowing you to browse, discover, and purchase
+                    your favorite books from the comfort of your home. We pride
+                    ourselves on offering competitive prices, fast shipping, and
+                    exceptional customer service.
+                </p>
+                <p class="mb-8">
+                    Beyond just selling books, we aim to build a community of
+                    readers. Our blog features author interviews, book reviews,
+                    and reading recommendations to help you stay informed and
+                    engaged. We also host virtual events, book clubs, and
+                    reading challenges to connect you with fellow book lovers.
+                </p>
+                <p class="mb-8">
+                    Join us on this literary journey, and let Patterson's Page
+                    Turners be your trusted companion in discovering new worlds,
+                    ideas, and adventures through the magic of books.
                 </p>
             </div>
         </section>
