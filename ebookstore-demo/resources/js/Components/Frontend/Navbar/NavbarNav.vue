@@ -42,6 +42,13 @@
                                 >About</a
                             >
                         </li>
+                        <li v-else>
+                            <Link
+                                class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
+                                :href="route('index')"
+                                >Home</Link
+                            >
+                        </li>
                     </ul>
                 </nav>
             </div>
