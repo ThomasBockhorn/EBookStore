@@ -38,7 +38,7 @@
                         <li>
                             <a
                                 class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
-                                href="#"
+                                href="#about"
                                 >About</a
                             >
                         </li>
