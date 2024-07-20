@@ -1,6 +1,8 @@
 <template>
-    <div class="flex-col w-full min-h-screen bg-gray-200">
-        <NavbarWithSearch />
+    <div
+        class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal"
+    >
+        <Navbar />
         <div>
             <slot />
         </div>
@@ -9,25 +11,8 @@
 </template>
 
 <script setup>
-import Footer from "../Components/Frontend/Footer/Footer.vue";
-import NavbarWithSearch from "../Components/Frontend/Navbar/NavbarWithSearch.vue";
-import { ref } from "vue";
-
-const show = ref(false);
-
-const showSidebar = (value) => {
-    show.value = value;
-};
+import Navbar from "@/Components/Frontend/Navbar/NavbarNav.vue";
+import Footer from "@/Components/Frontend/Footer/Footer.vue";
 </script>
 
-<style scoped>
-.v-enter-active,
-.ve-leave-active {
-    transition: opacity 0.5s ease;
-}
-
-.v-enter-from,
-.v-leave-to {
-    opacity: 0;
-}
-</style>
+<style scoped></style>
