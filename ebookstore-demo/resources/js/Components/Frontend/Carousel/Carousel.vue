@@ -14,7 +14,7 @@
                 <div
                     class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right"
                     style="
-                        background-image: url('/img/fantasy-1077863_1280.jpg');
+                        background-image: url('/img/banner/books-1842261_1280.jpg');
                     "
                 ></div>
             </div>
@@ -44,7 +44,7 @@
                 <div
                     class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right"
                     style="
-                        background-image: url('/img/sutterlin-1362879_1280.jpg');
+                        background-image: url('/img/banner/books-4515917_1280.jpg');
                     "
                 ></div>
             </div>
@@ -71,7 +71,7 @@
                 <div
                     class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-bottom"
                     style="
-                        background-image: url('/img/vintage-pocket-watch-7439236_1280.jpg');
+                        background-image: url('/img/banner/library-4317851_1280.jpg');
                     "
                 ></div>
             </div>
