@@ -74,11 +74,6 @@
                             </svg>
                         </div>
                         <p class="text-sm">Luna Skywalker</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $15.00
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$9.99</p>
                     </a>
                 </div>
@@ -104,11 +99,6 @@
                             </svg>
                         </div>
                         <p class="text-sm">Evelyn Whitmore</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $29.99
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$19.99</p>
                     </a>
                 </div>
@@ -134,11 +124,6 @@
                             </svg>
                         </div>
                         <p class="pt-1 text-gray-900 text-sm">Jasper Wilder</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $29.99
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$19.99</p>
                     </a>
                 </div>
@@ -166,11 +151,6 @@
                         <p class="pt-1 text-gray-900 text-sm">
                             Isabella Graves
                         </p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $25.00
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$9.99</p>
                     </a>
                 </div>
@@ -250,11 +230,6 @@
                             </svg>
                         </div>
                         <p class="text-sm">Luna Skywalker</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $15.00
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$9.99</p>
                     </a>
                 </div>
@@ -280,11 +255,6 @@
                             </svg>
                         </div>
                         <p class="text-sm">Evelyn Whitmore</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $29.99
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$19.99</p>
                     </a>
                 </div>
@@ -310,11 +280,6 @@
                             </svg>
                         </div>
                         <p class="pt-1 text-gray-900 text-sm">Jasper Wilder</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $29.99
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$19.99</p>
                     </a>
                 </div>
@@ -342,11 +307,6 @@
                         <p class="pt-1 text-gray-900 text-sm">
                             Isabella Graves
                         </p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $25.00
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$9.99</p>
                     </a>
                 </div>
@@ -426,11 +386,6 @@
                             </svg>
                         </div>
                         <p class="text-sm">Luna Skywalker</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $15.00
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$9.99</p>
                     </a>
                 </div>
@@ -456,11 +411,6 @@
                             </svg>
                         </div>
                         <p class="text-sm">Evelyn Whitmore</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $29.99
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$19.99</p>
                     </a>
                 </div>
@@ -486,11 +436,6 @@
                             </svg>
                         </div>
                         <p class="pt-1 text-gray-900 text-sm">Jasper Wilder</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $29.99
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$19.99</p>
                     </a>
                 </div>
@@ -518,11 +463,6 @@
                         <p class="pt-1 text-gray-900 text-sm">
                             Isabella Graves
                         </p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $25.00
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$9.99</p>
                     </a>
                 </div>
@@ -602,11 +542,6 @@
                             </svg>
                         </div>
                         <p class="text-sm">Luna Skywalker</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $15.00
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$9.99</p>
                     </a>
                 </div>
@@ -632,11 +567,6 @@
                             </svg>
                         </div>
                         <p class="text-sm">Evelyn Whitmore</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $29.99
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$19.99</p>
                     </a>
                 </div>
@@ -662,11 +592,6 @@
                             </svg>
                         </div>
                         <p class="pt-1 text-gray-900 text-sm">Jasper Wilder</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $29.99
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$19.99</p>
                     </a>
                 </div>
@@ -694,11 +619,6 @@
                         <p class="pt-1 text-gray-900 text-sm">
                             Isabella Graves
                         </p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $25.00
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$9.99</p>
                     </a>
                 </div>
@@ -778,11 +698,6 @@
                             </svg>
                         </div>
                         <p class="text-sm">Luna Skywalker</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $15.00
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$9.99</p>
                     </a>
                 </div>
@@ -808,11 +723,6 @@
                             </svg>
                         </div>
                         <p class="text-sm">Evelyn Whitmore</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $29.99
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$19.99</p>
                     </a>
                 </div>
@@ -838,11 +748,6 @@
                             </svg>
                         </div>
                         <p class="pt-1 text-gray-900 text-sm">Jasper Wilder</p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $29.99
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$19.99</p>
                     </a>
                 </div>
@@ -870,11 +775,6 @@
                         <p class="pt-1 text-gray-900 text-sm">
                             Isabella Graves
                         </p>
-                        <strike
-                            ><p class="pt-1 text-gray-900 text-sm">
-                                $25.00
-                            </p></strike
-                        >
                         <p class="pt-1 text-gray-900 text-sm">$9.99</p>
                     </a>
                 </div>
