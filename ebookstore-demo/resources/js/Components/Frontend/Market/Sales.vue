@@ -54,10 +54,12 @@
                 <a href="#">
                     <img
                         class="hover:grow hover:shadow-lg"
-                        src="https://images.unsplash.com/photo-1555982105-d25af4182e4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80"
+                        src="/img/fantasy-1077863_1280.jpg"
                     />
                     <div class="pt-3 flex items-center justify-between">
-                        <p class="">Product Name</p>
+                        <p class="text-sm">
+                            "Stellar Adventures: Journey to the Starry Realm"
+                        </p>
                         <svg
                             class="h-6 w-6 fill-current text-gray-500 hover:text-black"
                             xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +70,13 @@
                             />
                         </svg>
                     </div>
-                    <p class="pt-1 text-gray-900">£9.99</p>
+                    <p class="text-sm">Luna Skywalker</p>
+                    <strike
+                        ><p class="pt-1 text-gray-900 text-sm">
+                            $15.00
+                        </p></strike
+                    >
+                    <p class="pt-1 text-gray-900 text-sm">$9.99</p>
                 </a>
             </div>
 
