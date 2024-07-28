@@ -13,9 +13,9 @@
                     </a>
 
                     <div class="flex items-center" id="store-nav-content">
-                        <a
+                        <div
                             class="pl-3 inline-block no-underline hover:text-black"
-                            href="#"
+                            @click="toDisplay = !toDisplay"
                         >
                             <svg
                                 class="fill-current hover:text-black"
@@ -28,7 +28,7 @@
                                     d="M7 11H17V13H7zM4 7H20V9H4zM10 15H14V17H10z"
                                 />
                             </svg>
-                        </a>
+                        </div>
 
                         <a
                             class="pl-3 inline-block no-underline hover:text-black"
@@ -52,6 +52,7 @@
 
             <div
                 class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-3"
+                :class="{ hidden: toDisplay }"
             >
                 <Book />
                 <Book />
@@ -64,6 +65,7 @@
 
 <script setup>
 import Book from "@/Components/Frontend/Books/Book.vue";
-</script>
+import { ref } from "vue";
 
-<style></style>
+let toDisplay = ref(false);
+</script>
