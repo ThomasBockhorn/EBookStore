@@ -13,7 +13,7 @@
                     </a>
 
                     <div class="flex items-center" id="store-nav-content">
-                        <div
+                        <button
                             class="pl-3 inline-block no-underline hover:text-black"
                             @click="toDisplay = !toDisplay"
                         >
@@ -28,7 +28,7 @@
                                     d="M7 11H17V13H7zM4 7H20V9H4zM10 15H14V17H10z"
                                 />
                             </svg>
-                        </div>
+                        </button>
 
                         <a
                             class="pl-3 inline-block no-underline hover:text-black"
