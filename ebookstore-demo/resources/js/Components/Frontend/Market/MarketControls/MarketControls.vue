@@ -7,7 +7,7 @@
                 class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl"
                 href="#"
             >
-                Sales
+                {{ category }}
             </a>
 
             <div class="flex items-center" id="store-nav-content">
@@ -48,9 +48,12 @@
 </template>
 
 <script setup>
-import { ref, defineEmits } from "vue";
+import { ref, defineEmits, defineProps } from "vue";
 
 const emit = defineEmits(["isDisplay"]);
+defineProps({
+    category: String,
+});
 
 let display = ref(false);
 
