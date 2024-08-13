@@ -1,12 +1,15 @@
 <template>
     <GuestLayout>
-        <MainMarket />
+        <MainMarket :categoryTitles="categories" />
     </GuestLayout>
 </template>
 
 <script setup>
 import GuestLayout from "@/Layouts/GuestLayout.vue";
 import MainMarket from "@/Components/Frontend/Market/MainMarket.vue";
-</script>
+import { defineProps } from "vue";
 
-<style></style>
+defineProps({
+    categories: Object,
+});
+</script>

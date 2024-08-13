@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\ProfileController;
+
+use App\Models\Category;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -26,7 +28,9 @@ Route::get('/', function () {
 })->name('index');
 
 Route::get('/shop', function(){
-    return Inertia::render('Shop');
+    $categories = Category::all();
+
+    return Inertia::render('Shop', ['categories' => $categories]);
 })->name('shop');
 
 
