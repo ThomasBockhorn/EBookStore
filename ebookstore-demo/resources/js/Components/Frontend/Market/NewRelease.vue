@@ -3,7 +3,7 @@
         <div class="container mx-auto flex items-center flex-wrap pt-4 pb-12">
             <MarketControls
                 @isDisplay="displayBooks"
-                :category="salesCategory"
+                :category="releaseCategory"
             />
             <div
                 class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-3"
@@ -24,7 +24,7 @@ import MarketControls from "@/Components/Frontend/Market/MarketControls/MarketCo
 import { ref } from "vue";
 
 const toDisplay = ref(false);
-const salesCategory = ref("New Release");
+const releaseCategory = ref("New Release");
 
 const displayBooks = (displayBooks) => {
     toDisplay.value = displayBooks;
