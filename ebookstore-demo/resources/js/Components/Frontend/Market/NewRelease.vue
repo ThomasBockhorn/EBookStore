@@ -28,6 +28,5 @@ const releaseCategory = ref("New Release");
 
 const displayBooks = (displayBooks) => {
     toDisplay.value = displayBooks;
-    console.log(toDisplay.value);
 };
 </script>

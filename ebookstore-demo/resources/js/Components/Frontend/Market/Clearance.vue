@@ -28,6 +28,5 @@ const clearanceCategory = ref("Clearance");
 
 const displayBooks = (displayBooks) => {
     toDisplay.value = displayBooks;
-    console.log(toDisplay.value);
 };
 </script>

@@ -28,6 +28,5 @@ const salesCategory = ref("Sales");
 
 const displayBooks = (displayBooks) => {
     toDisplay.value = displayBooks;
-    console.log(toDisplay.value);
 };
 </script>

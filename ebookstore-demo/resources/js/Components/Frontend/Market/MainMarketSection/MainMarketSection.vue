@@ -3,7 +3,7 @@
         <div class="container mx-auto flex items-center flex-wrap pt-4 pb-12">
             <MarketControls
                 @isDisplay="displayBooks"
-                :category="mainCategory"
+                :category="categoryTitle"
             />
             <div
                 class="container mx-auto flex items-center flex-wrap pt-4 pb-12"
@@ -22,13 +22,15 @@
 import Book from "@/Components/Frontend/Books/Book.vue";
 import MarketControls from "@/Components/Frontend/Market/MarketControls/MarketControls.vue";
 
-import { ref } from "vue";
+import { ref, defineProps } from "vue";
+
+defineProps({
+    categoryTitle: String,
+});
 
 const toDisplay = ref(false);
-const mainCategory = ref("Main Category");
 
 const displayBooks = (displayBooks) => {
     toDisplay.value = displayBooks;
-    console.log(toDisplay.value);
 };
 </script>
