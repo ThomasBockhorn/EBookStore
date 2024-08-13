@@ -1,7 +1,10 @@
 <template>
     <section class="bg-white py-8" id="Best-Sellers">
         <div class="container mx-auto flex items-center flex-wrap pt-4 pb-12">
-            <MarketControls @isDisplay="displayBooks" />
+            <MarketControls
+                @isDisplay="displayBooks"
+                :category="bestSellerCategory"
+            />
             <div
                 class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-3"
                 :class="{ hidden: toDisplay }"
@@ -21,6 +24,7 @@ import MarketControls from "@/Components/Frontend/Market/MarketControls/MarketCo
 import { ref } from "vue";
 
 const toDisplay = ref(false);
+const bestSellerCategory = ref("Best Seller");
 
 const displayBooks = (displayBooks) => {
     toDisplay.value = displayBooks;
