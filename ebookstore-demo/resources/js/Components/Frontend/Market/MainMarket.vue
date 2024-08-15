@@ -10,7 +10,7 @@
 
 <script setup>
 import MainMarketSection from "@/Components/Frontend/Market/MainMarketSection/MainMarketSection.vue";
-import { ref, defineProps } from "vue";
+import { defineProps } from "vue";
 
 defineProps({
     categoryTitles: Object,
