@@ -15,12 +15,4 @@ import { ref, defineProps } from "vue";
 defineProps({
     categoryTitles: Object,
 });
-
-const categoryList = ref([
-    "Fiction",
-    "History",
-    "Biography",
-    "Poetry",
-    "CookBooks",
-]);
 </script>
