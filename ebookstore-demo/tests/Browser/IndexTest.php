@@ -45,4 +45,14 @@ class IndexTest extends DuskTestCase
         });
 
     }
+
+    public function testAboutLink(): void
+    {
+        $this->browse(function (Browser $browser){
+            $browser->visit('/')
+                ->clickLink('About')
+                ->pause(1000)
+                ->assertVisible('#about');
+        });
+    }
 }
