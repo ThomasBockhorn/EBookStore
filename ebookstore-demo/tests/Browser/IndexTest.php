@@ -34,4 +34,15 @@ class IndexTest extends DuskTestCase
                 ->assertSee('About');
         });
     }
+
+    public function testShopLink(): void
+    {
+        $this->browse(function (Browser $browser) {
+            $browser->visit('/')
+                    ->clickLink('Shop')
+                    ->waitForLocation('/shop')
+                    ->assertPathIs('/shop');
+        });
+
+    }
 }
