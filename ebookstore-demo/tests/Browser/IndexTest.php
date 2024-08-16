@@ -18,4 +18,12 @@ class IndexTest extends DuskTestCase
                     ->assertSee("Patterson's Page Turners");
         });
     }
+
+    public function testShopMenu(): void
+    {
+        $this->browse(function (Browser $browser){
+            $browser->visit('/')
+                ->assertSee('Shop');
+        });
+    }
 }
