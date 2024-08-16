@@ -26,4 +26,12 @@ class IndexTest extends DuskTestCase
                 ->assertSee('Shop');
         });
     }
+
+    public function testAboutMenu(): void
+    {
+        $this->browse(function (Browser $browser){
+            $browser->visit('/')
+                ->assertSee('About');
+        });
+    }
 }
