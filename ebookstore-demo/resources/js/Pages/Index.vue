@@ -1,7 +1,7 @@
 <template>
     <GuestLayout>
         <Carousel />
-        <Sales />
+        <Sales :books="books" />
         <BestSellers />
         <Clearance />
         <NewRelease />
@@ -17,4 +17,10 @@ import Clearance from "@/Components/Frontend/Market/Clearance.vue";
 import NewRelease from "@/Components/Frontend/Market/NewRelease.vue";
 import Sales from "@/Components/Frontend/Market/Sales.vue";
 import About from "@/Components/Frontend/About/About.vue";
+
+import { defineProps } from "vue";
+
+defineProps({
+    books: Object,
+});
 </script>

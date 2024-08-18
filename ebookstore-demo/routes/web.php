@@ -4,6 +4,7 @@ use App\Http\Controllers\BookController;
 use App\Http\Controllers\ProfileController;
 
 use App\Models\Category;
+use App\Models\Book;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -21,9 +22,12 @@ use Inertia\Inertia;
 
 /* ----------------------------- Public routes ----------------------- */
 Route::get('/', function () {
+    $books = Book::all();
+
     return Inertia::render('Index', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
+        'books' => $books
     ]);
 })->name('index');
 
