@@ -5,6 +5,7 @@ namespace Tests\Feature;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
+use App\Models\Category;
 
 class CategoryTest extends TestCase
 {
@@ -19,5 +20,12 @@ class CategoryTest extends TestCase
     public function test_to_see_if_categories_table_has_data()
     {
         $this->assertDatabaseCount('categories', 10);
+    }
+
+    public function test_to_see_if_the_category_model_exists()
+    {
+        $book = Category::find(1);
+
+        $this->assertModelExists($book);
     }
 }
