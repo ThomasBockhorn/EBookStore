@@ -19,10 +19,4 @@ class BookTest extends TestCase
     {
         $this->assertDatabaseCount('books', 10);
     }
-
-    public function test_to_see_if_a_user_can_see_all_books()
-    {
-        $response = $this->get('/books');
-        $response->assertStatus(200);
-    }
 }

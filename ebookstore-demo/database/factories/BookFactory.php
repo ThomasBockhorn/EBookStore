@@ -23,6 +23,7 @@ class BookFactory extends Factory
             'price' => $this->faker->randomFloat(2, 0, 100),
             'published_at' => $this->faker->date(),
             'cover_image' => $this->faker->imageUrl(),
+            'status' => $this->faker->randomElement(['bestseller', 'clearance', 'new_release', 'sale']),
         ];
     }
 }
