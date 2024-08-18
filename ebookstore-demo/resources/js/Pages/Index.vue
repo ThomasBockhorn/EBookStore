@@ -4,7 +4,7 @@
         <Sales :books="books" />
         <BestSellers :books="books" />
         <Clearance />
-        <NewRelease />
+        <NewRelease :books="books" />
         <About />
     </GuestLayout>
 </template>
