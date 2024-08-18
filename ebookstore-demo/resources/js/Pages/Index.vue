@@ -2,7 +2,7 @@
     <GuestLayout>
         <Carousel />
         <Sales :books="books" />
-        <BestSellers />
+        <BestSellers :books="books" />
         <Clearance />
         <NewRelease />
         <About />
