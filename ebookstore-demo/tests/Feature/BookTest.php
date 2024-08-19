@@ -2,9 +2,9 @@
 
 namespace Tests\Feature;
 
+use App\Models\Book;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
-use App\Models\Book;
 
 class BookTest extends TestCase
 {
@@ -16,12 +16,12 @@ class BookTest extends TestCase
         $this->seed();
     }
 
-    public function test_to_see_if_book_table_has_data()
+    public function test_to_see_if_book_table_has_data(): void
     {
         $this->assertDatabaseCount('books', 10);
     }
 
-    public function test_to_see_if_the_book_model_exists()
+    public function test_to_see_if_the_book_model_exists(): void
     {
         $book = Book::find(1);
 

@@ -2,7 +2,8 @@
 
 namespace App\Enums\StatusEnum;
 
-enum StatusEnum: String{
+enum StatusEnum: String
+{
     case SALE = 'sale';
     case NEWRELEASE = 'new_release';
     case CLEARANCE = 'clearance';
