@@ -10,19 +10,19 @@ use Tests\DuskTestCase;
 class BookTest extends DuskTestCase
 {
 
-    private $salesBook;
+    private $book;
 
-    public function __(Book $salesBook)
+    public function __(Book $book)
     {
-        $this->salesBook = $salesBook;
-        $this->salesBook->title = 'test title';
-        $this->salesBook->author = 'test author';
-        $this->salesBook->description = 'test description';
-        $this->salesBook->price = 12.56;
-        $this->salesBook->cover_image = 'http://test.com';
-        $this->salesBook->published_at = '2000-04-25';
-        $this->salesBook->status = 'sale';
-        $this->salesBook->save();
+        $this->book = $book;
+        $this->book->title = 'test title';
+        $this->book->author = 'test author';
+        $this->book->description = 'test description';
+        $this->book->price = 12.56;
+        $this->book->cover_image = 'http://test.com';
+        $this->book->published_at = '2000-04-25';
+        $this->book->status = 'sale';
+        $this->book->save();
     }
 
     public function test_to_see_if_a_user_adds_a_book_it_will_show_up_in_sale_view(): void
