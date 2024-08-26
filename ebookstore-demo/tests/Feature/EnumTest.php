@@ -23,4 +23,11 @@ class EnumTest extends TestCase
 
         $this->assertEquals($status, "new_release");
     }
+
+    public function test_to_verify_enum_clearance(): void
+    {
+        $status = StatusEnum::CLEARANCE->value;
+
+        $this->assertEquals($status, "clearance");
+    }
 }
