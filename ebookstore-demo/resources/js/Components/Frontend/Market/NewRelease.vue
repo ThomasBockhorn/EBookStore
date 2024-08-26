@@ -10,7 +10,11 @@
                 :class="{ hidden: toDisplay }"
             >
                 <template v-for="book in books">
-                    <Book v-if="book.status == 'new_release'" :key="book.id" />
+                    <Book
+                        v-if="book.status == 'new_release'"
+                        :key="book.id"
+                        :book="book"
+                    />
                 </template>
             </div>
         </div>

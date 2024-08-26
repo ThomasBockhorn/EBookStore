@@ -6,7 +6,7 @@
                 src="/img/fantasy-1077863_1280.jpg"
             />
             <div class="pt-3 flex items-center justify-between">
-                <p class="text-sm truncate">"Journey to the Starry Realm"</p>
+                <p class="text-sm truncate">{{ book.title }}</p>
                 <svg
                     class="h-6 w-6 fill-current text-gray-500 hover:text-black"
                     xmlns="http://www.w3.org/2000/svg"
@@ -24,4 +24,10 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { defineProps } from "vue";
+
+defineProps({
+    book: Object,
+});
+</script>
