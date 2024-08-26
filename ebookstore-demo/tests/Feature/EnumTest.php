@@ -30,4 +30,11 @@ class EnumTest extends TestCase
 
         $this->assertEquals($status, "clearance");
     }
+
+    public function test_to_vverify_enum_bestseller(): void
+    {
+        $status = StatusEnum::BESTSELLER->value;
+
+        $this->assertEquals($status, "bestseller");
+    }
 }
