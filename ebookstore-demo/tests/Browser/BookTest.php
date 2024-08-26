@@ -72,12 +72,31 @@ class BookTest extends DuskTestCase
         $this->book->price = 12.56;
         $this->book->cover_image = 'http://test.com';
         $this->book->published_at = '2000-04-25';
-        $this->book->status = 'new_release';
+        $this->book->status = 'clearance';
         $this->book->save();
 
         $this->browse(function (Browser $browser) {
             $browser->visit('/')
                     ->assertSee('test clearance title');
+        });
+    }
+
+    public function test_to_see_if_a_user_adds_a_book_it_will_show_up_in_bestsellers_view(): void
+    {
+        $this->book = new Book();
+
+        $this->book->title = 'test bestseller title';
+        $this->book->author = 'test author';
+        $this->book->description = 'test description';
+        $this->book->price = 12.56;
+        $this->book->cover_image = 'http://test.com';
+        $this->book->published_at = '2000-04-25';
+        $this->book->status = 'bestseller';
+        $this->book->save();
+
+        $this->browse(function (Browser $browser) {
+            $browser->visit('/')
+                    ->assertSee('test bestseller title');
         });
     }
 
